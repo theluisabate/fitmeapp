@@ -25,7 +25,7 @@ var app = new Framework7({
 });
 
 // Export selectors engine
-Z
+Var $$ = Dom7;
 
 $$('#btnLogin').on('click', function () {
 	var Usuario = $$('#username').val();
