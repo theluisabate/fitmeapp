@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitMe</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<section id="app">
+     <h2>FitMe</h2>
+		<h4>WELCOME</h4>
+		<p>What are we going to achieve today?<br>Achieve your goals, one step at the time!</p>
+		<div class="container">
+       <a href="#" id="btnStart" class="button button-fill">Get Started</a>
+			</div>
+		<section class="panel panel-left panel-cover">
+     	
+     	<div class="bg-menu">
+     		Menú de Opciones
+     	</div>
+     	
+     	<div class="list list-menu">
+			<ul>
+				<li>
+					<a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+							Inicio
+						</div>
+
+					</a>
+				</li>
+				<li>
+					<a href="/startworkout/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons"></i>
+						</div>
+						<div class="item-inner">
+							Start WorkOut
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/Pauseworkout/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons"></i>
+						</div>
+						<div class="item-inner">
+							Pause Workout
+						</div>
+					</a>
+				<li>
+					<a href="/yourprofile/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons"></i>
+						</div>
+						<div class="item-inner">
+							Yourprofile
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="/settings/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<i class="material-icons"></i>
+						</div>
+						<div class="item-inner">
+							Settings
+						</div>
+					</a>
+		</div>
+  </section>
+     <section id="login">
+		<div class="login-screen modal-in modal-login">
+		  <!-- Default view-page layout -->
+		  <div class="view">
+			<div class="page login-screen-page">
+			  <!-- page-content has additional login-screen content -->
+			  <div class="page-content login-screen-content">
+				<div class="login-screen-title">FitMe</div>
+				 <img src="img/FitMe.png" class="img-fluid">
+				<!-- Login form -->
+				<form>
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="text" id="email" name="email" placeholder="Email">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Password">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnLogin" class="button button-fill">Log in</a>
+					  </li>
+					</ul>
+					<div class="block-footer">Don't have an account? <a href="#" class="popup-open" data-popup=".popup-registro">Sign up</a>.</div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>	    
+
+	</section>	
+	<section id="registro">
+		<div class="popup popup-registro">
+			<h2 class="block-title">Log in</h2>
+			
+			<div class="block">
+				<form>
+				  <div class="list">
+					<ul>
+				  	<li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="text" id="name" name="name" placeholder="Name">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="email" id="email" name="email" placeholder="Email">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="tel" id="phone" name="phone" placeholder="Phone">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="text" id="username" name="username" placeholder="Username">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label"></div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Password">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnRegistro" class="button button-fill">Sign up</a>
+					  </li>
+					</ul>
+					<div class="block-footer">Ya tengo una cuenta, <a href="#" class="popup-close">Cancelar</a>.</div>
+				  </div>
+				</form>
+			</div>
+			
+		</div>
+	</section>
+			
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>

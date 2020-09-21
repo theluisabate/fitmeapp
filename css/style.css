@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	background-image: url("../img/a5bf85b412bbaea91b7cec371c8c8a06b8d98a98.png");
+	background-size: cover;
+	background-position: center;
+    font-size: 35px;
+	text-align: center;
+	padding-top: 50px;
+	color: #FFFFFF;
+	
+}
+body h4{
+	padding-top: 380px;
+font-size: 30px;
+font-weight: 100;
+}
+body p{
+font-size: 12px;
+}
+
+body a{
+ margin: 0;
+  position: absolute;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 2px;
+}
+:root{
+	--gris:#8f8f8f;
+	--negro:#000;
+	--f7-theme-color:#44caac;
+ 
+}
+.navbar .material-icons{
+	color: #fff !important;
+}
+.block-title{
+	color: var(--negro) !important;
+	font-size: 16px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+
+
+.popup-registro{
+	z-index: 999999 !important;
+}
+
+
+.start{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	background-image: url(" "../img/WhatsApp Image 2020-09-20 at 8.51.03 PM.jpeg"");
+	background-size: cover;
+	background-position: center;
+    font-size: 35px;
+	text-align: center;
+	padding-top: 50px;
+	color: #FFFFFF;
+	
+}
