@@ -25,14 +25,13 @@ var app = new Framework7({
 });
 
 // Export selectors engine
-Var $$ = Dom7;
 
 $$('#btnLogin').on('click', function () {
 	var Usuario = $$('#username').val();
 	var Password = $$('#password').val();
 	
   	if(Usuario == "jframos" && Password == "123"){
-		app.dialog.alert('¡ Bienvenido a Coffee Shop !');
+		app.dialog.alert('¡ Bienvenido a FitMe !');
 		app.loginScreen.close(".modal-login");
 		
 	}else{
